@@ -92,13 +92,14 @@ def want_to_play():
     print(
         f"Your cards are {player_cards}, your total is {sum(player_cards)} \ndealers first card is a {dealer_cards[0]}")
     double = True
+    max_bet = bet_amount * 2
+    if max_bet > Current_Bankroll:
+        double = False
+
     while double:
         double_down = input("would you like to double down?:'y' or 'n' ").lower()
         if double_down == 'y':
             bet_amount *= 2
-            if bet_amount > Current_Bankroll:
-                print("You don't have enough money to double down that bet starting a new round")
-                want_to_play()
             player_cards.append(random.choice(Cards))
             player_total = add_cards(player_cards)
             print(f"Your new cards are {player_cards} your new total is {player_total}")
