@@ -14,9 +14,13 @@ A simple blackjack Game with the options to hit or double down
 - If the player's hand exceeds twenty-one, they automatically lose regardless of the dealer's hand.
 - The player starts with a bankroll of one-hundred, and the game ends when the player's bankroll reaches zero or when they decided to quit the game.
 # Runnning the Program
-1. Make sure you have python installed on your system. If not you can download the latest version of python from the official website at https://www.python.org/downloads/
-2. Clone the repository from GitHub.
-3. Open your command prompt and type the following command
+1. Make sure you have python installed on your system. If not you can download the latest version of python from the official website at https://www.python.org/downloads/.
+2. Open your command prompt and paste the following command.
+```
+git clone https://github.com/JavTrejo/Blackjack_game.git
+```
+3. locate the repository folder in your files.
+4. Open the python file and run the program.
 
 # Contribution
 Contributions to the code are welcome. If you find and bugs or any suggestions for improvements, please open an issue or submit a pull request.
