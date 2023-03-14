@@ -19,8 +19,8 @@ A simple blackjack Game with the options to hit or double down
 ```
 git clone https://github.com/JavTrejo/Blackjack_game.git
 ```
-3. locate the repository folder in your files.
-4. Open the python file and run the program.
+3. Locate the python file.
+4. Open the python file in a idle of your choose and run the program.
 
 # Contribution
 Contributions to the code are welcome. If you find and bugs or any suggestions for improvements, please open an issue or submit a pull request.
